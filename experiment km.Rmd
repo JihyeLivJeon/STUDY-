@@ -1,0 +1,7 @@
+Data <- data.frame(id     = c(seq(1:10)),
+                   Ftime  = c(10,15,20,30,35,45,50,55,75,90),
+                   Event  = c(0, 0, 1, 0, 1, 0, 1, 1, 0, 1),
+                   Nation = c("USA", "USA", "KOR", "KOR", "USA", "KOR", "USA","KOR","USA", "KOR"),
+                   Weight = c(0.9, 1, 0.7, 1.4, 0.8, 0.5, 1.1, 0.6, 1.2, 1.5))
+
+fit <- 
